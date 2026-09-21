@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    
+     
+   
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+
+nav {
+    display: flex;
+    gap:20px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+nav > a:hover {
+    text-decoration: none;
+    color: red;
+   
+}
+
+.block {
+    padding: 5px 20px;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.under {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews {
+    
+    list-style: none;
+}
+
+.reviews > li {
+    display: inline;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+}
